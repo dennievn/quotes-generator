@@ -1,0 +1,55 @@
+*{
+    font-family: 'Share Tech Mono', monospace;
+    box-sizing: border-box;
+}
+body{
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.container{
+    margin: 0 auto;
+    width: 85%;
+    height: 50vh;
+    border: 3px dashed black;
+}
+h1 span{
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+}
+.generators{
+    text-align: center;
+    padding-top: 5%;
+}
+h1{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 40px;
+}
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 200px;
+}
+.tweet{
+    padding: 14.5px;
+}
+.newQuote{
+    padding: 15px 25px;
+}
+.tweet:hover{
+    color: #1a8cff;
+    background-color:white;
+    border: 2px solid black;
+}
+.newQuote:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+
+}
